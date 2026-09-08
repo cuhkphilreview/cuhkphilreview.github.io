@@ -1,0 +1,3 @@
+# EDIT: replace with "Allow: /" at launch.
+User-agent: *
+Disallow: /
