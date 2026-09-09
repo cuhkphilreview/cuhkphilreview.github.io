@@ -1,0 +1,20 @@
+Website wording update
+9 September 2026
+
+For cuhkphilreview.com
+
+Replace only about.html with the file in this folder. Keep the other live files.
+
+For chuktaiwai.com
+
+On the home page and review.html, replace any claim about two additional editors or a board of four with the following account.
+
+I co-founded the journal with Lee Kwok Shun (Shun, 李國舜) in June 2026. Lee Pak Yi (Peggy, 李柏怡), a second-year student, joined us later. The three of us share editorial decisions. Professor Franz Mang supervises the journal.
+
+Under Editorial continuity in review.html, use the following paragraph.
+
+Editorial decisions are shared by our three editors. We have begun looking for students who could carry the journal forward, including first-year students we met at the Orientation Camp. We look for sustained interest in philosophy, sound judgement and the ability to finish work. We plan to allow at least one semester to assess candidates before inviting a new editor. A successor has yet to be appointed. Training will begin after a suitable candidate joins the team.
+
+The current editors are Chuk Tai Wai (Wisdom, 祝大為), Lee Kwok Shun (Shun, 李國舜) and Lee Pak Yi (Peggy, 李柏怡). Toi is Peggy's nickname.
+
+These files do not alter either live website until uploaded.
