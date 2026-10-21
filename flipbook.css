@@ -1,0 +1,15 @@
+/* Title bar over the e-print page-turn viewer, and removal of e-print's job number and proof note. */
+#jobnoBar,#previewNotesBar,#phoneJobnoBar,#phonePreviewNotesBar{display:none!important}
+.zoomControlBar{top:54px!important}
+/* Phone and tablet panels (thumbnails, settings) open above the title bar so their own close button stays visible. */
+body>.phone{z-index:2147483001!important}
+.crp-bar{position:fixed;top:0;left:0;right:0;height:46px;z-index:2147483000;display:flex;align-items:center;gap:14px;padding:0 12px 0 16px;box-sizing:border-box;background:rgba(12,24,38,.72);color:#fff;font:14px/1.2 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;-webkit-font-smoothing:antialiased}
+.crp-bar a{color:#fff;text-decoration:none}
+.crp-brand{font-family:Georgia,"Times New Roman","Noto Serif TC","Songti TC",serif;font-size:17px;white-space:nowrap}
+.crp-sub{opacity:.78;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1 1 auto;min-width:0}
+.crp-actions{display:flex;gap:8px;flex:0 0 auto;margin-left:auto}
+.crp-btn{display:inline-block;padding:7px 14px;border-radius:999px;background:#18354F;border:1px solid rgba(255,255,255,.4);font-size:13px;white-space:nowrap}
+.crp-btn:hover,.crp-btn:focus{background:#2783DE}
+.crp-nojs{position:fixed;top:60px;left:0;right:0;text-align:center;color:#fff;font:16px/1.5 Arial,sans-serif}
+.crp-nojs a{color:#fff}
+@media (max-width:760px){.crp-sub{display:none}.crp-brand{font-size:15px;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1 1 auto}.crp-bar{height:42px;gap:8px;padding:0 8px 0 12px}.crp-btn{padding:6px 10px;font-size:12.5px}}
